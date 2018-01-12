@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetindexList</servlet-name>
+    <servlet-class>com.meizu.servlet.GetindexListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetordersList</servlet-name>
+    <servlet-class>com.meizu.servlet.GetordersListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetaddressList</servlet-name>
+    <servlet-class>com.meizu.servlet.GetaddressListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAddress</servlet-name>
+    <servlet-class>com.meizu.servlet.addAddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delAddress</servlet-name>
+    <servlet-class>com.meizu.servlet.delAddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Getsearch</servlet-name>
+    <servlet-class>com.meizu.servlet.GetsearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetsearchList</servlet-name>
+    <servlet-class>com.meizu.servlet.GetsearchListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAddManage</servlet-name>
+    <servlet-class>com.meizu.servlet.GetAddManageServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModelServlet</servlet-name>
+    <servlet-class>com.meizu.servlet.ModelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModelServlet</servlet-name>
+    <url-pattern>/ModelServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>GetindexList</servlet-name>
+    <url-pattern>/GetindexList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetordersList</servlet-name>
+    <url-pattern>/GetordersList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetaddressList</servlet-name>
+    <url-pattern>/GetaddressList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAddress</servlet-name>
+    <url-pattern>/addAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delAddress</servlet-name>
+    <url-pattern>/delAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getsearch</servlet-name>
+    <url-pattern>/Getsearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetsearchList</servlet-name>
+    <url-pattern>/GetsearchList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAddManage</servlet-name>
+    <url-pattern>/GetAddManage</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>GetindexList</welcome-file>
+  </welcome-file-list>
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>com.meizu.filter.EncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>headhelpFilter</filter-name>
+        <filter-class>com.meizu.filter.headHelpFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>headhelpFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.meizu.servlet.loginServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cancellation</servlet-name>
+    <servlet-class>com.meizu.servlet.cancellationServlet</servlet-class>
+  </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cancellation</servlet-name>
+    <url-pattern>/cancellation</url-pattern>
+  </servlet-mapping>
+    <servlet>
+        <servlet-name>addShoppingCart</servlet-name>
+        <servlet-class>com.meizu.servlet.addShoppingCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addShoppingCart</servlet-name>
+        <url-pattern>/addShoppingCart</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>delShoppingCart</servlet-name>
+        <servlet-class>com.meizu.servlet.delShoppingCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delShoppingCart</servlet-name>
+        <url-pattern>/delShoppingCart</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ShoppingCart</servlet-name>
+        <servlet-class>com.meizu.servlet.ShoppingCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShoppingCart</servlet-name>
+        <url-pattern>/ShoppingCart</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>subShoppingCart</servlet-name>
+        <servlet-class>com.meizu.servlet.subShoppingCartServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addOrdersBySC</servlet-name>
+    <servlet-class>com.meizu.servlet.addOrdersBySCServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addOrdersByMode</servlet-name>
+    <servlet-class>com.meizu.servlet.addOrdersByModeServlet</servlet-class>
+  </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>subShoppingCart</servlet-name>
+        <url-pattern>/subShoppingCart</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addOrdersBySC</servlet-name>
+    <url-pattern>/addOrdersBySC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addOrdersByMode</servlet-name>
+    <url-pattern>/addOrdersByMode</url-pattern>
+  </servlet-mapping>
+    <servlet>
+        <servlet-name>AddShoppingCartByModel</servlet-name>
+        <servlet-class>com.meizu.servlet.AddShoppingCartByModel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddShoppingCartByModel</servlet-name>
+        <url-pattern>/AddShoppingCartByModel</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>zhucePhoneServlet</servlet-name>
+        <servlet-class>com.meizu.servlet.zhucePhoneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>zhucePhoneServlet</servlet-name>
+        <url-pattern>/zhucePhoneServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>zhuceServlet</servlet-name>
+        <servlet-class>com.meizu.servlet.zhuceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>zhuceServlet</servlet-name>
+        <url-pattern>/zhuceServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>zhuceyanzheng</servlet-name>
+        <servlet-class>com.meizu.servlet.zhuceyanzhengServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>submitOrders</servlet-name>
+    <servlet-class>com.meizu.servlet.submitOrdersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payOver</servlet-name>
+    <servlet-class>com.meizu.servlet.payOverServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMyOrder</servlet-name>
+    <servlet-class>com.meizu.servlet.GetMyOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payOrders</servlet-name>
+    <servlet-class>com.meizu.servlet.payOrdersServlet</servlet-class>
+  </servlet>
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>zhuceyanzheng</servlet-name>
+        <url-pattern>/zhuceyanzheng</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>submitOrders</servlet-name>
+    <url-pattern>/submitOrders</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>payOver</servlet-name>
+    <url-pattern>/payOver</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMyOrder</servlet-name>
+    <url-pattern>/GetMyOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>payOrders</servlet-name>
+    <url-pattern>/payOrders</url-pattern>
+  </servlet-mapping>
+    <filter>
+        <filter-name>loginFilter</filter-name>
+        <filter-class>com.meizu.filter.loginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>loginFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>

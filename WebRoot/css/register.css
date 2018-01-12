@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	height: 1%;
+}
+input {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	border:0px currentColor;
+	border-image:none;
+}
+img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+span {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+a {
+	color:#0CF;
+	text-decoration: none;
+}
+a:hover {
+	color:#0CF;
+	text-decoration: none;
+}
+a:focus {
+	-moz-outline: none;
+}
+#zc{
+	text-align:right;}
+.content{
+	width:100%;
+	}
+.number {
+	width: 350px;
+	text-align:center;
+	font-size:20px;
+	margin-bottom:30px;
+	margin-left:-5px;
+}
+
+
+body {
+	background:white;
+	margin:0px;
+	padding:0px;
+	color:#685F5F;
+	font-family:"Microsoft Yahei",Arial,Helvetica,sans-serif;
+	font-size: 14px;
+}
+body input {
+	font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+	background-color: white;
+}
+body textarea {
+	font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+	background-color: white;
+}
+
+.normalInput {
+	padding: 0px 10px;
+	border: 1px solid rgb(218, 218, 218);
+	border-image: none;
+	width: 300px;
+	height: 50px;
+	color: rgb(71, 71, 71);
+	line-height: 50px;
+	overflow: hidden;
+	font-size: 16px;
+	margin-bottom: 20px;
+	display: inline-block;
+	position: relative;
+	-ms-zoom: 1;
+}
+div.normalInput {
+	overflow: visible;
+}
+.normalInput input {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+}
+.register-line {
+	border-width:1px;
+	border-style:solid solid solid none;
+	border-color: currentColor;
+	border-image:none;
+	height:16px;
+	color:rgb(217, 217, 217);
+	line-height:20px;
+	margin-right:50px;
+	margin-left:50px;
+	display:inline-block;
+}
+.i_icon {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	display:inline-block;
+}
+.footer-innerLink{
+	adding-top:15px;
+	float:left;
+}
+.footerWrap {
+	width: 100%;
+	height: 0px;
+	bottom: -176px;
+	color: black;
+	border: 1px solid #DD2F32;
+	height: 80px;
+	border-bottom: 0px;
+	border-top-color: #369;
+	border-top-width: 1px;
+	border-top-style: solid;
+	position: absolute;
+	background-color: #FFF;
+	left: 20px;
+}
+.footerInner {
+	margin:24px auto 30px;
+	width:1000px;
+}
+.footer-layer1 {
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+}
+.footer-layer1 a:link {
+	color: black;
+}
+.footer-service {
+	margin-left:36px; 
+	loat:left;
+}
+.foot-line {
+	margin:0px 5px;
+	width:1px;
+	height:10px;
+	background-color:#09C;
+}
+.footer-language {
+	overflow: hidden; position: relative; cursor: default;
+}
+.footer-outerLink a {
+	width: 32px; height: 32px; overflow: hidden; margin-left: 10px; display: inline-block;
+}
+.footer-outerLink {
+	padding-top: 9px; float: right; position: relative;float: left;
+}
+.footer-outerLink i {
+	background: url("/resources/uc/web/base/images/base.png") no-repeat; _background-image: none;
+}
+.footer-sinaMblog i {
+	background-position: -218px -91px; _margin-top: -91px; _margin-left: -218px;
+}
+.footer-tencentMblog i {
+	background-position: -260px -91px; _margin-top: -91px; _margin-left: -260px;
+}
+.footer-outerLink a {
+	cursor: pointer;
+}
+.footer-sinaMblog:hover i {
+	background-position: -218px -137px;
+}
+.footer-tencentMblog:hover i {
+	background-position: -260px -137px;
+}
+.footer-weChat:hover i {
+	background-position: -302px -137px;
+}
+.footer-qzone:hover i {
+	background-position: -344px -137px;
+}
+#service-online {
+	border-radius:2px;
+	width:64px;
+	height:20px;
+	text-align:center;
+	color:white;
+	line-height:18px;
+	display:inline-block;
+	background-color:#09F;
+	_margin-top:16px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+}
+.service-online:hover {
+	color:white;
+}
+.kefu-label {
+	margin-right:40px;
+}
+.kefu-num {
+	margin-right:40px;
+}
+.kefu-onlineWrap {
+	height:50px;
+	margin-left:20px;
+	float:left;
+}
+#kefu-online {
+	border-radius: 2px;
+	width:64px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	line-height: 18px;
+	display: inline-block;
+	background-color: rgb(50, 165, 231);
+	_margin-top: 16px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.kefu-online:hover {
+	color: white;
+}
+a.fullBtnBlue:hover {
+	color:#FFF;
+	background-color:#0C0;
+}
+a.fullBtnBlue {
+	height:50px;
+	text-align:center;
+	color:#FFF;
+	line-height:50px;
+	font-size:20px;
+	margin-bottom:20px;
+	display:block;
+	cursor:pointer;
+	background-color:#06F;
+}
+a.linkAGray:link {
+	color: rgb(127, 127, 127);
+}
+a.linkAGray:visited {
+	color: rgb(127, 127, 127);
+}
+a.linkAGray:hover {
+	color: rgb(43, 43, 43);
+}
+.copyrightWrap {
+	width: 100%;
+}
+.copyrightInner {
+	margin: 0px auto; width: 1000px;
+}
+.copyrightInner span {
+	color: rgb(127, 127, 127); float: left;
+	font-size: 12px;
+}
+.copyrightInner a {
+	color: rgb(127, 127, 127); margin-left: 6px; float: left; white-space: nowrap;
+	font-size: 12px;
+}
+#mainForm {
+	margin: 100px auto 0px; width: 350px; overflow: hidden; height:500px;
+}
+.rememberField {
+	height: 20px; line-height: 20px; margin-bottom: 30px;
+}
+.rememberField label {
+	margin-right: 7px; cursor: pointer;
+}
+.normalInput {
+	margin:10px 0px 20px 5px;
+	padding:0px 10px;
+	border:1px solid rgb(218, 218, 218);
+	border-image: none;
+	width:310px;
+	height:50px;
+	text-align:left;
+	color:rgb(71, 71, 71);
+	line-height:22px;
+	overflow:hidden;
+	font-size:16px;
+	display:inline-block;
+	position:relative;
+	-ms-zoom:1;
+}
+.normalInput .kapkey {
+	border: currentColor;
+	border-image: none;
+	width: 220px;
+	overflow: hidden;
+	font-size: 16px;
+}
+.normalInput #imgKey {
+	top: 14px;
+	width: 88px;
+	height: 36px;
+	overflow: hidden;
+	margin-left: 13px;
+	float: right;
+	position: absolute;
+}
+
+#getKey {
+	border: currentColor;
+	border-image: none;
+	top: 0px;
+	width: 84px;
+	height: 50px;
+	text-align: center;
+	right: 10px;
+	line-height: 50px;
+	font-size: 16px;
+	position: absolute;
+}

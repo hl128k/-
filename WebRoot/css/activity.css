@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+.outDiv{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+.inDiv{
+	position:absolute;
+	margin-left:-960px;
+	width:1920px;
+	height:100%;
+	left:50%;
+	top:0px;
+}
+.home{
+    position: absolute;
+    display: block;
+    width: 116px;
+    height: 51px;
+    left: 449px;
+    top: 10px;
+}
+.store {
+    position: absolute;
+    display: block;
+    width: 119px;
+    height: 48px;
+    left: 1355px;
+    top: 11px;
+}
+.Div501{
+	height:501px;
+	background: none repeat scroll 0% 0% #F0EBFF;
+}
+.Div153{
+    height:153px;
+}
+.Div412{
+    height: 412px;
+    background: none repeat scroll 0% 0% #FFF;
+}
+.Div412 a{
+    position: absolute;
+    display: block;
+    width: 1045px;
+    height: 410px;
+    left: 438px;
+    top: 0px;
+}
+.Div844{
+    height: 844px;
+}
+.Div647{
+    height: 647px;
+}
+.Div565{
+    height: 565px;
+}
+.Div80{
+    height: 80px;
+}
+.box1Div{
+    position: absolute;
+    width: 1260px;
+    height: 844px;
+    left: 380px;
+    top: 0px;
+}
+.box2Div{
+    position: absolute;
+    width: 1260px;
+    height: 647px;
+    left: 380px;
+    top: 136px;
+}
+.box3Div{
+    position: absolute;
+    width: 1260px;
+    height: 565px;
+    left: 380px;
+    top: 6px;
+}
+.box1Div a{
+    display: block;
+    float: left;
+    height: 405px;
+    width: 515px;
+    margin-right: -45px;
+    margin-left: 58px;
+    margin-bottom: 10px;
+}
+.box2Div a{
+    display: block;
+    float: left;
+    height: 250px;
+    width: 515px;
+    margin-right: -45px;
+    margin-left: 58px;
+    margin-bottom: 10px;
+}
+.box3Div a{
+    display: block;
+    float: left;
+    height: 245px;
+    width: 515px;
+    margin-right: -45px;
+    margin-left: 58px;
+    margin-bottom: 10px;
+}
